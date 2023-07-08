@@ -57,13 +57,22 @@ document reserves a Messaging Layer Security (MLS) {{!I-D.ietf-mls-protocol}}
 ciphersuite value based on the MLS default ciphersuite, but replacing the KEM
 with the hybrid post-quantum / traditional Key Exchange Mechanism
 X25519Kyber768Draft00 {{!I-D.draft-westerbaan-cfrg-hpke-xyber768d00}} which was
-assigned an Hybrid Public Key Encryption (HPKE) Key Exchange Mechanism (KEM)
-Identifier value.
+assigned the Hybrid Public Key Encryption (HPKE) Key Exchange Mechanism (KEM)
+Identifier value `0x0030`.
 
 # Security Considerations
 
-The security properties of {{!I-D.draft-westerbaan-cfrg-hpke-xyber768d00}} apply.
+This ciphersuite uses a hybrid post-quantum/traditional KEM and a traditional
+signature algorithm. As such, it is designed to provide confidentiality against
+quantum and classical attacks, but only provides authenticity against classical
+attacks only. This is actually very useful, because an attacker could store
+MLS-encrypted traffic that uses any classical KEM today. If years or decades in
+the future a quantum attack on classical KEMs becomes feasible, the traffic sent
+today (some of which could still be sensitive in the future) will then be readable.
+By contrast, an attack on a signature algorithm in MLS would require an active
+attack which can extract the private key in real time.
 
+The security properties of {{!I-D.draft-westerbaan-cfrg-hpke-xyber768d00}} apply.
 
 # IANA Considerations
 
@@ -80,3 +89,7 @@ Reference: This document
 
 --- back
 
+# Acknowledgments
+{:numbered="false"}
+
+Thanks to Joël Alwen, Marta Mularczyk, and Britta Hale.
