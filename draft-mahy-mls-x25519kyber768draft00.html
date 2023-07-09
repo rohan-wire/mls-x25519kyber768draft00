@@ -1061,7 +1061,7 @@ svg :is([fill="white"], [fill^="#fff"]) {
 </tr></thead>
 <tfoot><tr>
 <td class="left">Mahy &amp; Amiot</td>
-<td class="center">Expires 9 January 2024</td>
+<td class="center">Expires 10 January 2024</td>
 <td class="right">[Page]</td>
 </tr></tfoot>
 </table>
@@ -1074,12 +1074,12 @@ svg :is([fill="white"], [fill^="#fff"]) {
 <dd class="internet-draft">draft-mahy-mls-x25519kyber768draft00-latest</dd>
 <dt class="label-published">Published:</dt>
 <dd class="published">
-<time datetime="2023-07-08" class="published">8 July 2023</time>
+<time datetime="2023-07-09" class="published">9 July 2023</time>
     </dd>
 <dt class="label-intended-status">Intended Status:</dt>
 <dd class="intended-status">Informational</dd>
 <dt class="label-expires">Expires:</dt>
-<dd class="expires"><time datetime="2024-01-09">9 January 2024</time></dd>
+<dd class="expires"><time datetime="2024-01-10">10 January 2024</time></dd>
 <dt class="label-authors">Authors:</dt>
 <dd class="authors">
 <div class="author">
@@ -1134,7 +1134,7 @@ X25519Kyber768Draft00.<a href="#section-abstract-1" class="pilcrow">¶</a></p>
         time. It is inappropriate to use Internet-Drafts as reference
         material or to cite them other than as "work in progress."<a href="#section-boilerplate.1-3" class="pilcrow">¶</a></p>
 <p id="section-boilerplate.1-4">
-        This Internet-Draft will expire on 9 January 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
+        This Internet-Draft will expire on 10 January 2024.<a href="#section-boilerplate.1-4" class="pilcrow">¶</a></p>
 </section>
 </div>
 <div id="copyright">
@@ -1206,13 +1206,13 @@ Identifier value <code>0x0030</code>.<a href="#section-1-1" class="pilcrow">¶</
       </h2>
 <p id="section-2-1">This ciphersuite uses a hybrid post-quantum/traditional KEM and a traditional
 signature algorithm. As such, it is designed to provide confidentiality against
-quantum and classical attacks, but only provides authenticity against classical
+quantum and classical attacks, but provides authenticity against classical
 attacks only. This is actually very useful, because an attacker could store
 MLS-encrypted traffic that uses any classical KEM today. If years or decades in
 the future a quantum attack on classical KEMs becomes feasible, the traffic sent
 today (some of which could still be sensitive in the future) will then be readable.
 By contrast, an attack on a signature algorithm in MLS would require an active
-attack which can extract the private key in real time.<a href="#section-2-1" class="pilcrow">¶</a></p>
+attack which can extract the private key during the signature key's lifetime.<a href="#section-2-1" class="pilcrow">¶</a></p>
 <p id="section-2-2">The security properties of <span>[<a href="#I-D.draft-westerbaan-cfrg-hpke-xyber768d00" class="cite xref">I-D.draft-westerbaan-cfrg-hpke-xyber768d00</a>]</span> apply.<a href="#section-2-2" class="pilcrow">¶</a></p>
 </section>
 </div>

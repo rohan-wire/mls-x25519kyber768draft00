@@ -5,7 +5,7 @@
 MLS                                                              R. Mahy
 Internet-Draft                                                  M. Amiot
 Intended status: Informational                                      Wire
-Expires: 9 January 2024                                      8 July 2023
+Expires: 10 January 2024                                     9 July 2023
 
 
   Messaging Layer Security Ciphersuite using X25519Kyber768Draft00 Key
@@ -49,7 +49,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 9 January 2024.
+   This Internet-Draft will expire on 10 January 2024.
 
 Copyright Notice
 
@@ -88,15 +88,15 @@ Table of Contents
 
    This ciphersuite uses a hybrid post-quantum/traditional KEM and a
    traditional signature algorithm.  As such, it is designed to provide
-   confidentiality against quantum and classical attacks, but only
-   provides authenticity against classical attacks only.  This is
-   actually very useful, because an attacker could store MLS-encrypted
-   traffic that uses any classical KEM today.  If years or decades in
-   the future a quantum attack on classical KEMs becomes feasible, the
-   traffic sent today (some of which could still be sensitive in the
-   future) will then be readable.  By contrast, an attack on a signature
-   algorithm in MLS would require an active attack which can extract the
-   private key in real time.
+   confidentiality against quantum and classical attacks, but provides
+   authenticity against classical attacks only.  This is actually very
+   useful, because an attacker could store MLS-encrypted traffic that
+   uses any classical KEM today.  If years or decades in the future a
+   quantum attack on classical KEMs becomes feasible, the traffic sent
+   today (some of which could still be sensitive in the future) will
+   then be readable.  By contrast, an attack on a signature algorithm in
+   MLS would require an active attack which can extract the private key
+   during the signature key's lifetime.
 
    The security properties of
    [I-D.draft-westerbaan-cfrg-hpke-xyber768d00] apply.
