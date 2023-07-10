@@ -1,0 +1,143 @@
+
+
+
+
+MLS                                                              R. Mahy
+Internet-Draft                                                  M. Amiot
+Intended status: Informational                                      Wire
+Expires: 11 January 2024                                    10 July 2023
+
+
+  Messaging Layer Security Ciphersuite using X25519Kyber768Draft00 Key
+                           Exchange Mechanism
+              draft-mahy-mls-x25519kyber768draft00-latest
+
+Abstract
+
+   This document registers a new Messaging Layer Security (MLS)
+   ciphersuite using the hybrid post-quantum resistant / traditional
+   (PQ/T) Key Exchange Mechanism X25519Kyber768Draft00.
+
+About This Document
+
+   This note is to be removed before publishing as an RFC.
+
+   Status information for this document may be found at
+   https://datatracker.ietf.org/doc/draft-mahy-mls-
+   x25519kyber768draft00/.
+
+   Discussion of this document takes place on the MLS Working Group
+   mailing list (mailto:mls@ietf.org), which is archived at
+   https://mailarchive.ietf.org/arch/browse/mls/.  Subscribe at
+   https://www.ietf.org/mailman/listinfo/mls/.
+
+   Source for this draft and an issue tracker can be found at
+   https://github.com/rohan-wire/mls-x25519kyber768draft00/.
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current Internet-
+   Drafts is at https://datatracker.ietf.org/drafts/current/.
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on 11 January 2024.
+
+Copyright Notice
+
+   Copyright (c) 2023 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents (https://trustee.ietf.org/
+   license-info) in effect on the date of publication of this document.
+   Please review these documents carefully, as they describe your rights
+   and restrictions with respect to this document.  Code Components
+   extracted from this document must include Revised BSD License text as
+   described in Section 4.e of the Trust Legal Provisions and are
+   provided without warranty as described in the Revised BSD License.
+
+Table of Contents
+
+   1.  Introduction
+   2.  Security Considerations
+   3.  IANA Considerations
+   4.  Normative References
+   Acknowledgments
+   Authors' Addresses
+
+1.  Introduction
+
+   This document reserves a Messaging Layer Security (MLS)
+   [I-D.ietf-mls-protocol] ciphersuite value based on the MLS default
+   ciphersuite, but replacing the KEM with the hybrid post-quantum /
+   traditional Key Exchange Mechanism X25519Kyber768Draft00
+   [I-D.draft-westerbaan-cfrg-hpke-xyber768d00] which was assigned the
+   Hybrid Public Key Encryption (HPKE) Key Exchange Mechanism (KEM)
+   Identifier value 0x0030.
+
+2.  Security Considerations
+
+   This ciphersuite uses a hybrid post-quantum/traditional KEM and a
+   traditional signature algorithm.  As such, it is designed to provide
+   confidentiality against quantum and classical attacks, but provides
+   authenticity against classical attacks only.  This is actually very
+   useful, because an attacker could store MLS-encrypted traffic that
+   uses any classical KEM today.  If years or decades in the future a
+   quantum attack on classical KEMs becomes feasible, the traffic sent
+   today (some of which could still be sensitive in the future) will
+   then be readable.  By contrast, an attack on a signature algorithm in
+   MLS would require an active attack which can extract the private key
+   during the signature key's lifetime.
+
+   The security properties of
+   [I-D.draft-westerbaan-cfrg-hpke-xyber768d00] apply.
+
+3.  IANA Considerations
+
+   This document registers a new MLS Ciphersuite value.
+
+   Value:     0x0030 (please)
+   Name:      MLS_128_X25519Kyber768Draft00_AES128GCM_SHA256_Ed25519
+   Required:  N
+   Reference: This document
+
+4.  Normative References
+
+   [I-D.draft-westerbaan-cfrg-hpke-xyber768d00]
+              Westerbaan, B. and C. A. Wood, "X25519Kyber768Draft00
+              hybrid post-quantum KEM for HPKE", Work in Progress,
+              Internet-Draft, draft-westerbaan-cfrg-hpke-xyber768d00-02,
+              4 May 2023, <https://datatracker.ietf.org/doc/html/draft-
+              westerbaan-cfrg-hpke-xyber768d00-02>.
+
+   [I-D.ietf-mls-protocol]
+              Barnes, R., Beurdouche, B., Robert, R., Millican, J.,
+              Omara, E., and K. Cohn-Gordon, "The Messaging Layer
+              Security (MLS) Protocol", Work in Progress, Internet-
+              Draft, draft-ietf-mls-protocol-20, 27 March 2023,
+              <https://datatracker.ietf.org/doc/html/draft-ietf-mls-
+              protocol-20>.
+
+Acknowledgments
+
+   Thanks to Joël Alwen, Marta Mularczyk, and Britta Hale.
+
+Authors' Addresses
+
+   Rohan Mahy
+   Wire
+   Email: rohan.mahy@wire.com
+
+
+   Mathieu Amiot
+   Wire
+   Email: mathieu.amiot@wire.com
