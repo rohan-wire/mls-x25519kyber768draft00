@@ -5,7 +5,7 @@
 MLS                                                              R. Mahy
 Internet-Draft                                                  M. Amiot
 Intended status: Informational                                      Wire
-Expires: 10 January 2024                                     9 July 2023
+Expires: 12 January 2024                                    11 July 2023
 
 
   Messaging Layer Security Ciphersuite using X25519Kyber768Draft00 Key
@@ -49,7 +49,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 10 January 2024.
+   This Internet-Draft will expire on 12 January 2024.
 
 Copyright Notice
 
@@ -105,10 +105,10 @@ Table of Contents
 
    This document registers a new MLS Ciphersuite value.
 
-   Value:     0x0030 (please)
-   Name:      MLS_128_X25519Kyber768Draft00_AES128GCM_SHA256_Ed25519
-   Required:  N
-   Reference: This document
+   Value:        0x0030 (please)
+   Name:         MLS_128_X25519Kyber768Draft00_AES128GCM_SHA256_Ed25519
+   Recommended:  N
+   Reference:    This document
 
 4.  Normative References
 
