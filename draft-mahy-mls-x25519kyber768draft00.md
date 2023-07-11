@@ -79,10 +79,10 @@ The security properties of {{!I-D.draft-westerbaan-cfrg-hpke-xyber768d00}} apply
 This document registers a new MLS Ciphersuite value.
 
 ~~~
-Value:     0x0030 (please)
-Name:      MLS_128_X25519Kyber768Draft00_AES128GCM_SHA256_Ed25519
-Required:  N
-Reference: This document
+Value:        0x0030 (please)
+Name:         MLS_128_X25519Kyber768Draft00_AES128GCM_SHA256_Ed25519
+Recommended:  N
+Reference:    This document
 ~~~
 
 
