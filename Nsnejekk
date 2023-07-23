@@ -1,0 +1,161 @@
+Skip to main content
+IETF Logo Datatracker
+
+Yoav Nir
+Photo of Yoav Nir
+Yoav Nir
+
+Roles
+Role	Group	Email
+Chair	IP Security Maintenance and Extensions (ipsecme)	ynir.ietf@gmail.com
+Chair	Automated Certificate Management Environment (acme)	ynir.ietf@gmail.com
+Reviewer	Security Area Directorate (secdir)	ynir.ietf@gmail.com
+RFCs (19)
+Search
+RFC	Date	Title	Cited by
+RFC 4478	Apr 2006	Repeated Authentication in Internet Key Exchange (IKEv2) Protocol	6 RFCs
+RFC 5996	Sep 2010	Internet Key Exchange Protocol Version 2 (IKEv2)	67 RFCs
+RFC 6023	Oct 2010	A Childless Initiation of the Internet Key Exchange Version 2 (IKEv2) Security Association (SA)	3 RFCs
+RFC 6027	Oct 2010	IPsec Cluster Problem Statement	3 RFCs
+RFC 6290	Jun 2011	A Quick Crash Detection Method for the Internet Key Exchange Protocol (IKE)	2 RFCs
+RFC 6311	Jul 2011	Protocol Support for High Availability of IKEv2/IPsec	3 RFCs
+RFC 6697	Jul 2012	Handover Keying (HOKEY) Architecture Design	1 RFC
+RFC 6867	Jan 2013	An Internet Key Exchange Protocol Version 2 (IKEv2) Extension to Support EAP Re-authentication Protocol (ERP)	
+RFC 7296	Oct 2014	Internet Key Exchange Protocol Version 2 (IKEv2)	81 RFCs
+RFC 7539	May 2015	ChaCha20 and Poly1305 for IETF Protocols	9 RFCs
+RFC 7634	Skip to main content
+IETF Logo Datatracker
+
+Yoav Nir
+Photo of Yoav Nir
+Yoav Nir
+
+Roles
+Role	Group	Email
+Chair	IP Security Maintenance and Extensions (ipsecme)	ynir.ietf@gmail.com
+Chair	Automated Certificate Management Environment (acme)	ynir.ietf@gmail.com
+Reviewer	Security Area Directorate (secdir)	ynir.ietf@gmail.com
+RFCs (19)
+Search
+RFC	Date	Title	Cited by
+RFC 4478	Apr 2006	Repeated Authentication in Internet Key Exchange (IKEv2) Protocol	6 RFCs
+RFC 5996	Sep 2010	Internet Key Exchange Protocol Version 2 (IKEv2)	67 RFCs
+RFC 6023	Oct 2010	A Childless Initiation of the Internet Key Exchange Version 2 (IKEv2) Security Association (SA)	3 RFCs
+RFC 6027	Oct 2010	IPsec Cluster Problem Statement	3 RFCs
+RFC 6290	Jun 2011	A Quick Crash Detection Method for the Internet Key Exchange Protocol (IKE)	2 RFCs
+RFC 6311	Jul 2011	Protocol Support for High Availability of IKEv2/IPsec	3 RFCs
+RFC 6697	Jul 2012	Handover Keying (HOKEY) Architecture Design	1 RFC
+RFC 6867	Jan 2013	An Internet Key Exchange Protocol Version 2 (IKEv2) Extension to Support EAP Re-authentication Protocol (ERP)	
+RFC 7296	Oct 2014	Internet Key Exchange Protocol Version 2 (IKEv2)	81 RFCs
+RFC 7539	May 2015	ChaCha20 and Poly1305 for IETF Protocols	9 RFCs
+RFC 7634	Aug 2015	ChaCha20, Poly1305, and Their Use in the Internet Key Exchange Protocol (IKE) and IPsec	2 RFCs
+RFC 8019	Nov 2016	Protecting Internet Key Exchange Protocol Version 2 (IKEv2) Implementations from Distributed Denial-of-Service Attacks	5 RFCs
+RFC 8031	Dec 2016	Curve25519 and Curve448 for the Internet Key Exchange Protocol Version 2 (IKEv2) Key Agreement	1 RFC
+RFC 8221	Oct 2017	Cryptographic Algorithm Implementation Requirements and Usage Guidance for Encapsulating Security Payload (ESP) and Authentication Header (AH)	8 RFCs
+RFC 8247	Sep 2017	Algorithm Implementation Requirements and Usage Guidance for the Internet Key Exchange Protocol Version 2 (IKEv2)	6 RFCs
+RFC 8420	Aug 2018	Using the Edwards-Curve Digital Signature Algorithm (EdDSA) in the Internet Key Exchange Protocol Version 2 (IKEv2)	
+RFC 8422	Aug 2018	Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS) Versions 1.2 and Earlier	13 RFCs
+RFC 8439	Jun 2018	ChaCha20 and Poly1305 for IETF Protocols	5 RFCs
+RFC 8750	Mar 2020	Implicit Initialization Vector (IV) for Counter-Based Ciphers in Encapsulating Security Payload (ESP)	2 RFCs
+Active Internet-Drafts (3)
+draft-nir-lamps-altcompsigs
+draft-nir-ipsecme-big-payload
+draft-ietf-tls-tlsflags
+Expired Internet-Drafts (34)
+draft-sheffer-ietf-ciphertext-format
+draft-nir-i2nsf-ipsec-dc-prof
+draft-nir-saag-star
+draft-nir-saag-rfc3552bis
+draft-nir-tls-puzzles
+draft-nir-ipsecme-puzzles
+draft-nir-ipsecme-cafr
+draft-sheffer-autovpn
+draft-sathyanarayan-ipsecme-advpn
+draft-ietf-ipsecme-ike-tcp
+draft-nir-httpbis-che
+draft-nir-tls-keyshare
+draft-nir-websec-extended-origin
+draft-nir-tls-eap
+draft-nir-non-wg-presentations
+draft-nir-ike-qcd
+draft-nir-ipsecme-ipsecha
+draft-detienne-ikev2-recovery
+draft-sheffer-ipsecme-secure-beacon
+draft-nir-ike-nochild
+draft-nir-qcr
+draft-sheffer-ipsec-secure-beacon
+draft-nir-tee-pm
+(Excluding replaced Internet-Drafts.)
+Internet-Draft Activity
+New Internet-Draft revisions over time for Yoav Nir
+Combination chart with 2 data series.
+View as data table, New Internet-Draft revisions over time for Yoav Nir
+The chart has 2 X axes displaying Time, and navigator-x-axis.
+The chart has 2 Y axes displaying values, and navigator-y-axis.
+
+View all
+
+
+End of interactive chart.
+Roles
+RFCs (19)
+Active Internet-Drafts (3)
+Expired Internet-Drafts (34)
+Internet-Draft Activity
+IETF IESG IAB IRTF IETF LLC IETF Trust RFC Editor IANA Privacy Statement
+About IETF Datatracker Version 11.5.0 (release - 3ea79c2)  Report a bug: GitHub Email 2015	ChaCha20, Poly1305, and Their Use in the Internet Key Exchange Protocol (IKE) and IPsec	2 RFCs
+RFC 8019	Nov 2016	Protecting Internet Key Exchange Protocol Version 2 (IKEv2) Implementations from Distributed Denial-of-Service Attacks	5 RFCs
+RFC 8031	Dec 2016	Curve25519 and Curve448 for the Internet Key Exchange Protocol Version 2 (IKEv2) Key Agreement	1 RFC
+RFC 8221	Oct 2017	Cryptographic Algorithm Implementation Requirements and Usage Guidance for Encapsulating Security Payload (ESP) and Authentication Header (AH)	8 RFCs
+RFC 8247	Sep 2017	Algorithm Implementation Requirements and Usage Guidance for the Internet Key Exchange Protocol Version 2 (IKEv2)	6 RFCs
+RFC 8420	Aug 2018	Using the Edwards-Curve Digital Signature Algorithm (EdDSA) in the Internet Key Exchange Protocol Version 2 (IKEv2)	
+RFC 8422	Aug 2018	Elliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS) Versions 1.2 and Earlier	13 RFCs
+RFC 8439	Jun 2018	ChaCha20 and Poly1305 for IETF Protocols	5 RFCs
+RFC 8750	Mar 2020	Implicit Initialization Vector (IV) for Counter-Based Ciphers in Encapsulating Security Payload (ESP)	2 RFCs
+Active Internet-Drafts (3)
+draft-nir-lamps-altcompsigs
+draft-nir-ipsecme-big-payload
+draft-ietf-tls-tlsflags
+Expired Internet-Drafts (34)
+draft-sheffer-ietf-ciphertext-format
+draft-nir-i2nsf-ipsec-dc-prof
+draft-nir-saag-star
+draft-nir-saag-rfc3552bis
+draft-nir-tls-puzzles
+draft-nir-ipsecme-puzzles
+draft-nir-ipsecme-cafr
+draft-sheffer-autovpn
+draft-sathyanarayan-ipsecme-advpn
+draft-ietf-ipsecme-ike-tcp
+draft-nir-httpbis-che
+draft-nir-tls-keyshare
+draft-nir-websec-extended-origin
+draft-nir-tls-eap
+draft-nir-non-wg-presentations
+draft-nir-ike-qcd
+draft-nir-ipsecme-ipsecha
+draft-detienne-ikev2-recovery
+draft-sheffer-ipsecme-secure-beacon
+draft-nir-ike-nochild
+draft-nir-qcr
+draft-sheffer-ipsec-secure-beacon
+draft-nir-tee-pm
+(Excluding replaced Internet-Drafts.)
+Internet-Draft Activity
+New Internet-Draft revisions over time for Yoav Nir
+Combination chart with 2 data series.
+View as data table, New Internet-Draft revisions over time for Yoav Nir
+The chart has 2 X axes displaying Time, and navigator-x-axis.
+The chart has 2 Y axes displaying values, and navigator-y-axis.
+
+View all
+
+
+End of interactive chart.
+Roles
+RFCs (19)
+Active Internet-Drafts (3)
+Expired Internet-Drafts (34)
+Internet-Draft Activity
+IETF IESG IAB IRTF IETF LLC IETF Trust RFC Editor IANA Privacy Statement
+About IETF Datatracker Version 11.5.0 (release - 3ea79c2)  Report a bug: GitHub Email
