@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2023-07-23T01:36:16.208508+00:00",
+  "timestamp": "2023-07-25T01:40:42.789522+00:00",
   "repo": "rohan-wire/mls-x25519kyber768draft00",
   "labels": [
     {
@@ -49,6 +49,58 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
-  "pulls": []
+  "issues": [
+    {
+      "number": 2,
+      "id": "I_kwDOJ4A2sc5sWWDs",
+      "title": "MLS gh page",
+      "url": "https://github.com/rohan-wire/mls-x25519kyber768draft00/issues/2",
+      "state": "OPEN",
+      "author": "IzSancho",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2023-07-24T07:16:17Z",
+      "updatedAt": "2023-07-24T07:16:17Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOJ4A2sc5WKhE7",
+      "title": "Create Nsnejekk",
+      "url": "https://github.com/rohan-wire/mls-x25519kyber768draft00/pull/1",
+      "state": "OPEN",
+      "author": "Mommyrosee",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "Skip to main content\r\nIETF Logo Datatracker\r\n1\r\nYoav Nir\r\nPhoto of Yoav Nir\r\nYoav Nir\r\n\r\nRoles\r\nRole\tGroup\tEmail\r\nChair\tIP Security Maintenance and Extensions (ipsecme)\tynir.ietf@gmail.com Chair\tAutomated Certificate Management Environment (acme)\tynir.ietf@gmail.com Reviewer\tSecurity Area Directorate (secdir)\tynir.ietf@gmail.com RFCs (19)\r\nSearch\r\nRFC\tDate\tTitle\tCited by\r\nRFC 4478\tApr 2006\tRepeated Authentication in Internet Key Exchange (IKEv2) Protocol\t6 RFCs RFC 5996\tSep 2010\tInternet Key Exchange Protocol Version 2 (IKEv2)\t67 RFCs RFC 6023\tOct 2010\tA Childless Initiation of the Internet Key Exchange Version 2 (IKEv2) Security Association (SA)\t3 RFCs RFC 6027\tOct 2010\tIPsec Cluster Problem Statement\t3 RFCs RFC 6290\tJun 2011\tA Quick Crash Detection Method for the Internet Key Exchange Protocol (IKE)\t2 RFCs RFC 6311\tJul 2011\tProtocol Support for High Availability of IKEv2/IPsec\t3 RFCs RFC 6697\tJul 2012\tHandover Keying (HOKEY) Architecture Design\t1 RFC RFC 6867\tJan 2013\tAn Internet Key Exchange Protocol Version 2 (IKEv2) Extension to Support EAP Re-authentication Protocol (ERP)\t RFC 7296\tOct 2014\tInternet Key Exchange Protocol Version 2 (IKEv2)\t81 RFCs RFC 7539\tMay 2015\tChaCha20 and Poly1305 for IETF Protocols\t9 RFCs RFC 7634\tAug 2015\tChaCha20, Poly1305, and Their Use in the Internet Key Exchange Protocol (IKE) and IPsec\t2 RFCs RFC 8019\tNov 2016\tProtecting Internet Key Exchange Protocol Version 2 (IKEv2) Implementations from Distributed Denial-of-Service Attacks\t5 RFCs RFC 8031\tDec 2016\tCurve25519 and Curve448 for the Internet Key Exchange Protocol Version 2 (IKEv2) Key Agreement\t1 RFC RFC 8221\tOct 2017\tCryptographic Algorithm Implementation Requirements and Usage Guidance for Encapsulating Security Payload (ESP) and Authentication Header (AH)\t8 RFCs RFC 8247\tSep 2017\tAlgorithm Implementation Requirements and Usage Guidance for the Internet Key Exchange Protocol Version 2 (IKEv2)\t6 RFCs RFC 8420\tAug 2018\tUsing the Edwards-Curve Digital Signature Algorithm (EdDSA) in the Internet Key Exchange Protocol Version 2 (IKEv2)\t RFC 8422\tAug 2018\tElliptic Curve Cryptography (ECC) Cipher Suites for Transport Layer Security (TLS) Versions 1.2 and Earlier\t13 RFCs RFC 8439\tJun 2018\tChaCha20 and Poly1305 for IETF Protocols\t5 RFCs RFC 8750\tMar 2020\tImplicit Initialization Vector (IV) for Counter-Based Ciphers in Encapsulating Security Payload (ESP)\t2 RFCs Active Internet-Drafts (3)\r\ndraft-nir-lamps-altcompsigs\r\ndraft-nir-ipsecme-big-payload\r\ndraft-ietf-tls-tlsflags\r\nExpired Internet-Drafts (34)\r\ndraft-sheffer-ietf-ciphertext-format\r\ndraft-nir-i2nsf-ipsec-dc-prof\r\ndraft-nir-saag-star\r\ndraft-nir-saag-rfc3552bis\r\ndraft-nir-tls-puzzles\r\ndraft-nir-ipsecme-puzzles\r\ndraft-nir-ipsecme-cafr\r\ndraft-sheffer-autovpn\r\ndraft-sathyanarayan-ipsecme-advpn\r\ndraft-ietf-ipsecme-ike-tcp\r\ndraft-nir-httpbis-che\r\ndraft-nir-tls-keyshare\r\ndraft-nir-websec-extended-origin\r\ndraft-nir-tls-eap\r\ndraft-nir-non-wg-presentations\r\ndraft-nir-ike-qcd\r\ndraft-nir-ipsecme-ipsecha\r\ndraft-detienne-ikev2-recovery\r\ndraft-sheffer-ipsecme-secure-beacon\r\ndraft-nir-ike-nochild\r\ndraft-nir-qcr\r\ndraft-sheffer-ipsec-secure-beacon\r\ndraft-nir-tee-pm\r\n(Excluding replaced Internet-Drafts.)\r\nInternet-Draft Activity\r\nNew Internet-Draft revisions over time for Yoav Nir Combination chart with 2 data series.\r\nView as data table, New Internet-Draft revisions over time for Yoav Nir The chart has 2 X axes displaying Time, and navigator-x-axis. The chart has 2 Y axes displaying values, and navigator-y-axis.\r\n\r\nView all\r\n\r\n\r\nEnd of interactive chart.\r\nRoles\r\nRFCs (19)\r\nActive Internet-Drafts (3)\r\nExpired Internet-Drafts (34)\r\nInternet-Draft Activity\r\nIETF IESG IAB IRTF IETF LLC IETF Trust RFC Editor IANA Privacy Statement About IETF Datatracker Version 11.5.0 (release - 3ea79c2)  Report a bug: GitHub Email",
+      "createdAt": "2023-07-23T12:54:07Z",
+      "updatedAt": "2023-07-23T13:01:05Z",
+      "baseRepository": "rohan-wire/mls-x25519kyber768draft00",
+      "baseRefName": "main",
+      "baseRefOid": "30e9fdb3294b248092754199a5657ac44365460b",
+      "headRepository": "Mommyrosee/mls-x25519kyber768draft00",
+      "headRefName": "patch-1",
+      "headRefOid": "994cb6c146ef7a44814cc6033a1fae0dd4378c7e",
+      "closedAt": null,
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "Mommyrosee",
+          "authorAssociation": "NONE",
+          "body": "OLA-AX6-03A9B\r\n~~\r\nAs a good practice we will start our tutorial with a \"hello word\" page, for now you don't need to set any lab, all you need is an text editor, you could use dreamwever but i advice you to learn it by using text editor cause using softwares like dreamweaver will make you a lazy code writer as it will suggest you almost every single letter you enter, but at some point its good when you have some basic understanding of it and want to explore new codes, so open any text editor and copy and paste the code below and save it as index.html and open using any browser.\r\n\r\n\r\n> `ol`192.168.1.128>192.168.1.1>24\r\nDuplicate of #DNS>8.8.8.8>8.8.4.4",
+          "createdAt": "2023-07-23T13:01:04Z",
+          "updatedAt": "2023-07-23T13:01:04Z"
+        }
+      ],
+      "reviews": []
+    }
+  ]
 }
